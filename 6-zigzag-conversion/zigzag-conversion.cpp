@@ -9,7 +9,7 @@ public:
       
         int n = s.size();
         int ElementsInOneCycle = 2 * rows - 2;
-        int colsInOneCycle = rows-1;
+        int colsInOneCycle = rows;
         //Let x be the total no of cycle, therfore cols in x cycle => x->cycle = x.colsInOneCycle => x*(rows-1);
         
         int totalCycle = n/ElementsInOneCycle + 1;
