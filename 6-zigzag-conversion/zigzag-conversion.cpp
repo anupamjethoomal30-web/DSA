@@ -13,7 +13,7 @@ public:
         //Let x be the total no of cycle, therfore cols in x cycle => x->cycle = x.colsInOneCycle => x*(rows-1);
         
         int totalCycle = n/ElementsInOneCycle + 1;
-        int cols = totalCycle * (rows-1);
+        int cols = totalCycle * (rows);
 
 
         vector<vector<char>>grid(rows,vector<char>(cols,'\0')); 
