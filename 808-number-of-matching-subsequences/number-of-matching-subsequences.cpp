@@ -19,8 +19,8 @@ public:
              
             char ch = word[i];
 
-            if(mp.find(ch) == mp.end())
-            break;
+            // if(mp.find(ch) == mp.end())
+            // break;
 
             auto it = upper_bound(mp[ch].begin(),mp[ch].end(),last);
 
